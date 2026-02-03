@@ -10,7 +10,7 @@ public class ludu {
         int numberOfDice;
         int total = 0;
 
-        System.out.print("ENTER THE NUMBER OF TIMES YOU WANT TO ROLL THE DICE: ");
+        System.out.print("Enter the number of times you want the die to roll: ");
         numberOfDice = scanner.nextInt();
 
         for(int i = 1; i <= numberOfDice; i++){
@@ -18,7 +18,7 @@ public class ludu {
             System.out.println(myNum);
             total += myNum;
         }
-        System.out.println("the sum of the numbers i: " + total);
+        System.out.println("the sum of the numbers is: " + total);
 
 
 
