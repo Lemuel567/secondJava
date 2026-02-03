@@ -18,7 +18,7 @@ public class ludu {
             System.out.println(myNum);
             total += myNum;
         }
-        System.out.println("the sum of the numbers is: " + total);
+        System.out.println("the sum is: " + total);
 
 
 
