@@ -10,7 +10,7 @@ public class ludu {
         int numberOfDice;
         int total = 0;
 
-        System.out.print("Enter the number of times you want the die to roll: ");
+        System.out.print("Enter the number of times you want to roll the die: ");
         numberOfDice = scanner.nextInt();
 
         for(int i = 1; i <= numberOfDice; i++){
